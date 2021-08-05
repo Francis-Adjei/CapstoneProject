@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap');
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: radial-gradient(
+        ellipse at left bottom,
+        rgba(22,24,47,1) 0%, 
+        rgba(38,20,72,0.9) 59%,
+        rgba(17,27,75,0.9) 100%
+    );
+}
+
+.hero nav{
+    background: #603bbb;
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero nav h2{
+    color: #fff;
+}
+
+.hero nav button{
+    width: 86px;
+    padding: 8px 0;
+    background: #3a2b58;
+    color: #fff;
+    cursor: pointer;
+}
+
+.QuoteGenerator{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh; 
+    align-items: center;
+    flex-direction: column;
+}
+.QuoteGenerator .quote{
+    background-image: url(./assets/yellowPerfect.PNG);
+    background-size: cover;
+    width: 650px;
+    height: 450px;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.QuoteGenerator .quote h2{
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+}
+
+.QuoteGenerator .quote small{
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
+}
+
+.QuoteGenerator .btn{
+    display: block;
+    border: 2px solid #008cba;
+    background: #fff;
+    padding: 10px 15px;
+    color: #008cba;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background 1s, color 1s;
+}
+.QuoteGenerator .btn:hover{
+    background: #008cba;
+    color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
