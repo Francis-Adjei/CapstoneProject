@@ -2,18 +2,21 @@ import React, { Component } from 'react';
 import './App.css';
 import './QuoteGenerator.css';
 import Nav from './components/Nav'
-import QuoteGenerator from './components/QuoteGenerator'
-import Login from './components/Login'
+import {store} from './Redux/store'
+import { Provider } from 'react-redux';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-       <Nav/>
-      </div>
-    );
-  }
+const App = () => {
+  return (
+    <Provider store = {store}>
+        <div>
+          <Nav/>
+        </div>
+    </Provider>
+    
+  );
 }
+   
+ 
 
 export default App;
 
