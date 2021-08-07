@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import Header from './header';
 import QuoteGenerator from './QuoteGenerator';
+import Footer from './footer';
 
 
 class Nav extends Component {
@@ -7,11 +9,14 @@ class Nav extends Component {
         return (
             <section className= 'hero'>
                 <nav>
-                    <h2>Welcome</h2>
-                    <button>Logout</button>
+                    <Header/>
+                    <button className='btn'>Search</button>
+                    <button className='btn'>Logout</button>
                 </nav>
                 <QuoteGenerator/>
+                <Footer/>
             </section>
+           
         );
     }
 }

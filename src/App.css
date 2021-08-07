@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 body, input{
@@ -13,7 +14,7 @@ body, input{
     width: 100%;
     min-height: 100vh;
     background-color: #fff;
-    overflow: hidden;
+   
 }
 
 .container::before{

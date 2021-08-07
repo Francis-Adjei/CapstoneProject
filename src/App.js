@@ -8,13 +8,13 @@ import { Provider } from 'react-redux';
 
 const App = () => {
   return (
-    // <Provider store = {store}>
-    //     <div>
-    //       <Nav/>
-    //     </div>
-    // </Provider>
+    <Provider store = {store}>
+        <div>
+          <Nav/>
+        </div>
+    </Provider>
 
-    <Login/>
+    // <Login/>
     
   );
 }
