@@ -50,8 +50,8 @@
     flex-direction: column;
 }
 .QuoteGenerator .quote{
-    background-image: url(./assets/yellowPerfect.PNG);
-    background-size: cover;
+    /* background-image: url(./assets/final.jpg);
+    background-size: cover; */
     width: 650px;
     height: 450px;
     border-radius: 10px;
@@ -70,6 +70,7 @@
 .QuoteGenerator .quote small{
     font-size: 1.5em;
     font-family: 'Dancing Script', cursive;
+    padding-top: 10px;
 }
 
 .QuoteGenerator .btn, .hero nav .btn{
@@ -84,7 +85,16 @@
     outline: none;
     transition: background 1s, color 1s;
 }
+.shape{
+    margin-left: 1000px;
+}
 .QuoteGenerator .btn:hover{
+    background: #008cba;
+    color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.hero nav .btn:hover{
     background: #008cba;
     color: #fff;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);

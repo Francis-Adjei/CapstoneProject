@@ -10,7 +10,7 @@ class Nav extends Component {
             <section className= 'hero'>
                 <nav>
                     <Header/>
-                    <button className='btn'>Search</button>
+                    <button className='btn shape'>Search</button>
                     <button className='btn'>Logout</button>
                 </nav>
                 <QuoteGenerator/>
