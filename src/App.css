@@ -74,7 +74,7 @@ body, input{
     border-radius: 55px;
     display: grid;
     grid-template-columns: 15% 85%;
-    padding: 0.4rem;
+    /* padding: 0.4rem; */
 }
 .container .forms-container .signin-signup form .input-field i{
     text-align: center;

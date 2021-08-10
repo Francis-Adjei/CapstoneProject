@@ -4,7 +4,7 @@ import QuoteGenerator from './QuoteGenerator';
 import Footer from './footer';
 
 
-class Nav extends Component {
+class Main extends Component {
     render() {
         return (
             <section className= 'hero'>
@@ -12,7 +12,6 @@ class Nav extends Component {
                     <Header/>
                     <button className='btn'>Logout</button>
                 </nav><br></br>
-                <input type='text'></input>
                 <QuoteGenerator/>
                 <Footer/>
             </section>
@@ -21,4 +20,4 @@ class Nav extends Component {
     }
 }
 
-export default Nav;
+export default Main;
