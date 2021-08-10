@@ -3,20 +3,23 @@ import './App.css';
 import Login from './components/Login'
 import ForgetPassword from './components/ForgetPassword'
 import './QuoteGenerator.css';
-import Nav from './components/Main'
-import {store} from './Redux/store'
-import { Provider } from 'react-redux';
+import Main from './components/Main'
+
+import {BrowserRouter, Route, Switch} from 'react-router-dom'
 
 const App = () => {
   return (
-    // <Provider store = {store}>
-    //     <div>
-    //       <Nav/>
-    //     </div>
-    // </Provider>
-
+    
+   <BrowserRouter>
+   <Switch>
+     <Route exact path ="/" component ={Login} />
+     <Route exact path ="/main" component ={Main} />
+     <Route exact path ="/forget-password" component ={ForgetPassword} />
     <Login/>
-    // <ForgetPassword/>
+    </Switch>
+    </BrowserRouter>
+    
+    
     
   );
 }

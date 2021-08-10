@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
  function Login() {
@@ -18,7 +19,7 @@ import React from 'react';
                         <input type="password" placeholder="Password"/>
                     </div>
                     <p className="social-text">
-                        <a href="#">forgot password</a>
+                        <Link to='/forget-password'>forgot password</Link>
                     </p>
                     <input type="submit" value="Login" class="btnLogin solid"/>
                     <div className="social-media">
